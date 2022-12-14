@@ -1,27 +1,14 @@
 {
-  "name": "tg-web-app",
-  "private": true,
+  "name": "@skychik/vite-monorepo",
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "../../node_modules/.bin/vite",
-    "build": "../../node_modules/.bin/tsc && vite build",
-    "preview": "../../node_modules/.bin/vite preview"
+    "start": "npm run --prefix apps/frontend dev",
+    "build": "npm run --prefix apps/frontend build",
+    "serve": "npm run --prefix apps/frontend serve",
+    "clean-slate": "npx -y rimraf node_modules **/node_modules/ package-lock.json && npm i"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
-    "@typescript-eslint/eslint-plugin": "^5.45.0",
-    "@typescript-eslint/parser": "^5.45.0",
-    "@vitejs/plugin-react": "^2.2.0",
-    "eslint": "^8.28.0",
-    "eslint-plugin-react": "^7.31.11",
-    "typescript": "^4.6.4",
-    "vite": "^3.2.3"
-  },
-  "workspaces": ["apps/*"]
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ]
 }
