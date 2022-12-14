@@ -21,11 +21,7 @@
      ]
   },
   "include": [
-<<<<<<<< HEAD:apps/site/tsconfig.json
-    "site/src"
-========
     "src"
->>>>>>>> 8ae565e (unfinished):apps/frontend/tsconfig.json
   ],
   "references": [{ "path": "./tsconfig.node.json"}]
 }
