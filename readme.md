@@ -15,12 +15,14 @@ todo
 
 ## Planned to use technologies
 1. Tailwind css - css "framework"
-2. next auth - authentication
-3. next (?)
-4. tanstack router - router
-5. zod - validation
-6. sanity - data management
-7. prisma - backend 
-8. mdx (?) - for posts
-9. vitest (?) - unit tests
-10. husky (?) - automated checks on commit/push
+2. Headless ui - ui components
+3. next auth - authentication
+4. next (?)
+5. tanstack router - router
+6. zod - validation
+7. sanity - data management
+8. prisma - backend 
+9. mdx (?) - for posts
+10. vitest (?) - unit tests
+11. husky (?) - automated checks on commit/push
+12. create-t3-app - CLI tool for creating a repo
