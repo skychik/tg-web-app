@@ -21,7 +21,7 @@ todo
 5. tanstack router - router
 6. zod - validation
 7. sanity - data management
-8. prisma - backend 
+8. prisma - typesafe ORM 
 9. mdx (?) - for posts
 10. vitest (?) - unit tests
 11. husky (?) - automated checks on commit/push
